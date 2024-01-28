@@ -43,7 +43,7 @@ class Complex:
         self.real = real
         self.img = img
 
-    def __add__(self, complex: Complex):
+    def __add__(self, complex: Complex) -> Complex:
         return Complex(self.real + complex.real, self.img + complex.img)
 
     def __repr__(self) -> str:
